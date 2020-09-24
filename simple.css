@@ -1,0 +1,14 @@
+.h1{
+    color: violet;
+}
+.text_center{
+    text-align: center;
+}
+h2{
+    color: brown;
+}
+.unorderd_list{
+    list-style: none;
+    padding: 0px;
+    color: blue;
+}

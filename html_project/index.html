@@ -3,10 +3,19 @@
     <head>
         <link rel="stylesheet" type="text/css" href="css_file.css">
         <style>
-            body{
-                background-image: url("images/ipl2.jpg");
-                background-size: cover;
-            }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
         </style>
     </head>
     <body>
@@ -36,5 +45,8 @@
                 </li>
             </ul>
         </nav>
+        <div class="imgbox">
+            <img class="center-fit" src='images/ipl2.jpg'>
+        </div>
     </body>
 </html>

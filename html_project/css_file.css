@@ -154,3 +154,132 @@ nav ul li ul li a {
 nav ul li ul li a:hover{
   background-color: brown;
 }
+.services
+{
+    width: 1510px;
+    height: 300px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/service.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 50px 0 30px 0;
+    border-radius: 2px;
+}
+.about-us
+{
+    
+    float: left;
+    margin: 30px 0 0 0;
+    
+}
+.about-us a
+{
+    text-decoration: none;
+    display: block;
+    color: #B3B6B7;
+    opacity: 1;
+    padding: 5px 0 0 50px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+.about-us a:hover
+{
+    cursor: pointer;
+    color: #5DADE2;
+}
+.team-members
+{
+   
+    float: left;
+    margin: 10px 0 0 270px;
+}
+.team-members a
+{
+    text-decoration: none;
+    display: block;
+    color: #B3B6B7;
+    
+    padding: 5px 0 0 50px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.team-members h3
+{
+    color: #F4F6F7;
+    padding: 0 0 0 50px;   
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.team-members a:hover
+{
+     cursor: pointer;
+    color: #5DADE2;
+}
+
+.follow-us
+{
+   
+    float: left;
+    
+    height: 200px;
+    width: 400px;
+    margin: 30px 0 0 270px;
+}
+.follow-us h3
+{
+    color: #F4F6F7;
+     padding: 0 0 0 50px;   
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.follow-us .fa
+{
+    color: #B3B6B7;
+    padding: 10px 0 0 50px;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+.follow-us .fa:hover
+{
+     cursor: pointer;
+    color: #5DADE2;
+}
+
+.copyright
+{
+    float: right;
+    
+    margin: 20px 0 0 0;
+    
+    
+}
+.copyright p
+{
+    color: #7B7D7D;
+    padding: 0 30px 0 0;
+}
+.policy
+{
+    float: right;
+    margin: 35px 930px 0 0;
+}
+.policy a
+{
+    text-decoration: none;
+    color: #F4F6F7;
+    padding-left: 10px;
+    
+    
+}
+.policy a:hover{
+    color: #5DADE2;
+    cursor: pointer;
+}
+.something
+{
+    border: 2px solid red;
+}
